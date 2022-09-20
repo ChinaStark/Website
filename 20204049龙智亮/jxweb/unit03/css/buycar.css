@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(18,18,18);
+}
+.nav{
+    z-index: 1000;
+    background-color: rgb(50,50,50);
+    position: fixed;
+    top: 0;
+    height:  12%;
+    width: 100%;
+}
+.nav h1{
+    font-family: '宋体', sans-serif;
+    font-weight: lighter;
+    color: white;
+    margin-left: 200px;
+    line-height: 85px;
+    float: left;
+}
+.nav h1 img{
+    height: 25px;
+}
+.bottom_in_top:hover{
+    background-color: rgb(90,90,90);
+}
+.bottom_in_top{
+    font-weight: bold;
+    text-align:center;
+    line-height: 50px;
+    color: white;
+    float: right;
+    margin: 18px 100px 0 0;
+    width: 180px;
+    height: 50px;
+    border: 1px solid  gray;
+    background-color: rgb(18,18,18);
+}
+
+.bigBox{
+    border-top: 1px solid gray;
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    background-color: rgb(18,18,18);
+}
+.boxBottom{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0,0,0);
+}
+.text_bottom a{
+
+    font-size: 18px;
+    color: rgb(150,150 ,150);
+}
+.text_bottom_img{
+    float: right;
+    font-size: 18px;
+    color: rgb(140,140 ,140);
+}
+.text_bottom_img img{
+    height: 90px;
+    top: -30px;
+    position: relative;
+    right: 130px;
+}
+.text_bottom{
+    position: relative;
+    top: 50px;
+    float: left;
+    width: 80%;
+    margin: 0 auto;
+    height: 30%;
+}
+.text{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.textSmall{
+    font-weight: normal;
+    font-size: 15px;
+    position: relative;
+    right: 115px;
+    top: -25px;
+}
+.text h1{
+    font-family: Georgia, serif;
+    margin-top:90px;
+    font-size: 220px;
+    font-weight: lighter;
+    color: rgb(160,160,160);
+}
+.car{
+    float: left;
+    display: inline;
+    width: 80%;
+    height: 100%;
+}
+.carOne:hover{
+    transition: 600ms;
+    transform: translate3d(0,-12px,20px) ;
+    background-color: rgb(25,25,25);
+}
+.carOne{
+    float: left;
+    width: 32%;
+    height: 85%;
+
+    margin: 30px 5px 30px 0;
+    background-color: rgb(18,18,18);
+}
+.carOne img{
+    width: 100%;
+    margin-top: 100px;
+}
+.describe{
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 90px;
+    color: white;
+    width: 100%;
+    height: 18%;
+
+}
+.price{
+    margin-top: -20px;
+    margin-left: 50px;
+    font-size: 18px;
+    color: rgb(100,100,100);
+}
+.bottom_in_buy:hover{
+    background-color: rgb(90,90,90);
+}
+.bottom_in_buy{
+    font-weight: bold;
+    text-align:center;
+    line-height: 50px;
+    color: white;
+    float: right;
+    margin: 18px 65px 0 0;
+    width: 180px;
+    height: 50px;
+    border: 1px solid  gray;
+    background-color: rgb(18,18,18);
+}
