@@ -1,0 +1,193 @@
+/*导航栏*/
+body{
+    padding: 0;
+    margin: 0;
+}
+.box img{
+    position: absolute;
+    right: 25px;
+    top: 20px;
+ }
+.box img:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+.tap{
+    background-color: black;
+    filter: blur(8px);
+}
+.bt{
+    padding: 0;
+    background-color: black;
+    width: 180px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    margin: auto;
+    right: 0;
+    height: 42px;
+    color: white;
+    text-align: center;
+    line-height: 38px;
+
+}
+.bt:hover{
+    background-color: #bfbfbf;
+}
+.textoffont{
+    position: absolute;
+    top: 60px;
+    left: 35px;
+    right: 35px;
+}
+.box{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1000;
+    width: 480px;
+    height: 250px;
+    text-align: center;
+
+
+    background-color: white;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.r_ine {
+    width:202px;
+    height:97px;
+
+}
+.video{
+    width: 100%;
+
+}
+.a{
+   width: 100%;
+    height: auto;
+
+}
+.nav {
+
+    line-height:97px ;
+    /*background-color: #362626;*/
+
+}
+
+.nav ul {
+    width:680px;
+    float: right;
+    top:0;
+
+    border-bottom: 1px solid #fff;
+
+
+}
+
+.nav li{
+    float:left;
+    margin:0 15px;
+    font-size:20px;
+
+}
+
+.nav li a {
+    color:#fff;
+    width:100%;
+    height:93px;
+    display: flex;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    border-bottom: 4px solid #1C69D4;
+
+
+}
+.img {
+    float:left;
+    margin-top:15px;
+    margin-left: 10px;
+
+}
+
+.the h2 {
+    font-size:50px;
+    color:#fff;
+
+}
+
+.the h3 {
+    font-size:25px;
+    color:#fff;
+}
+
+.the span {
+    width:285px;
+    height:50px;
+    display:block;
+    background-color:#1C69D4;
+    text-align:center;
+    line-height: 50px;
+    font-size: 1em;
+
+}
+
+.the a {
+    width:285px;
+    height:50px;
+    text-decoration: none;
+    color:#fff;
+
+
+}
+
+.the span:hover{
+    background-color:#0066B1;
+}
+.text1{
+    position: relative;
+    top:-600px;
+    left:66px;
+    color: white;
+    font-size: xx-large;
+    font-style: oblique;
+}
+.text1 h2{
+
+}
+.the {
+    position: absolute;
+    top:140px;
+    left:66px;
+}
+.text{
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: #bfbfbf;
+}
+.text i{
+    color: #bfbfbf;
+}
+.text a{
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+
+
+
+
+
+
+
+
+
