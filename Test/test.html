@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>整页滚动</title>
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+<!--    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>-->
+    <script type="text/javascript">
+        $(function(){
+            var $screen = $('.pages_con');
+            var $pages = $('.pages');
+            var $len = $pages.length;
+            var $h = $(window).height();
+            var $points = $('.points li');
+            var timer = null;
+
+            var $nowscreen = 0;
+            $pages.css({'height':$h});
+            $pages.eq(0).addClass('moving');
+
+
+            $points.click(function(){
+                $nowscreen = $(this).index();
+                $points.eq($nowscreen).addClass('active').siblings().removeClass('active');
+                $screen.animate({'top':-$h*$nowscreen},300);
+                $pages.eq($nowscreen).addClass('moving').siblings().removeClass('moving');
+            })
+
+
+
+            $(window).mousewheel(function(event,dat){
+                clearTimeout(timer);
+                timer = setTimeout(function(){
+
+                    if(dat==-1)
+                    {
+                        $nowscreen++;
+                    }
+                    else
+                    {
+                        $nowscreen--;
+                    }
+                    if($nowscreen<0)
+                    {
+                        $nowscreen=0;
+                    }
+
+                    if($nowscreen>$len-1)
+                    {
+                        $nowscreen=$len-1;
+                    }
+
+                    $screen.animate({'top':-$h*$nowscreen},300);
+                    $pages.eq($nowscreen).addClass('moving').siblings().removeClass('moving');
+
+                    $points.eq($nowscreen).addClass('active').siblings().removeClass('active');
+
+                },200)
+
+            })
+        })
+
+    </script>
+</head>
+<body>
+
+<ul  >
+    <li  >  的味道</li>
+    <li>昂首上</li>
+    <li> </li>
+    <li></li>
+    <li></li>
+</ul>
+</body>
+</html>
