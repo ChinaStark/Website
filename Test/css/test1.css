@@ -1,0 +1,42 @@
+.header{
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+.line{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 5px;
+    background-color: brown;
+    display: block;
+    position:relative;
+}
+
+body{
+    margin: 0 auto;
+}
+
+ul,li{
+    font-feature-settings: normal;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 40px;
+    float: left;
+}
+
+li{
+    width:100px;
+    text-align: center;
+    background-color: white;
+}
+
+a{
+    font-family: tahoma,Arial;
+    text-decoration: none;
+    color: black;
+}

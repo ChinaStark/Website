@@ -1,136 +1,29 @@
-div .bg {
-    position:relative;
-    top:0;
-    left:0;
-
+#circle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.nav {
-    height:1px;
-    line-height:97px ;
-
-    width:100%;
-
+.btn-container {
+    position: relative;
 }
 
-.nav ul {
-    width:1085px;
-
-    position: absolute;
-    top:0;
-    left:85px;
-    border-bottom: 1px solid #fff;
-
-
-
-
-}
-a{
-    background-color: #bfbfbf;
+button {
+    border: 0;
+    border-radius: 50px;
     color: white;
-}
-
-.nav li {
-    float:left;
-    margin:0 12px;
-    font-size:15px;
-
-}
-
-.nav li a {
-    color:#fff;
-    width:100%;
-    height:93px;
-    display:block;
-    text-decoration: none;
-}
-
-.nav li a:hover {
-    border-bottom: 4px solid #1C69D4;
-
-}
-
-  .r_ine {
-    width:202px;
-    height:97px;
-
- }
-
-
-.nav .rine {
-
-}
-
-.logo img {
-    position: absolute;
-    top:20px;
-    right:185px;
-}
-
-.the h2 {
-    font-size:50px;
-    color:#fff;
-
-}
-
-.the h3 {
-    font-size:25px;
-    color:#fff;
-}
-
-.the span {
-    width:285px;
-    height:50px;
-    display:block;
-    background-color:#1C69D4;
-    text-align:center;
-    line-height: 50px;
-    font-size: 1em;
-
-}
-
-.the a {
-    width:285px;
-    height:50px;
-    text-decoration: none;
-    color:#fff;
-
-
-}
-
-.the span:hover{
-    background-color:#0066B1;
-}
-
-.the {
-    position: absolute;
-    top:140px;
-    left:66px;
-}
-
-.xx img {
-
-    background-color:#1C69D5;
-    cursor: pointer;
-    border-radius: 6px;
-}
-
-.xx {
-    position: fixed;
-    top:200px;
-    right:0;
+    background: #5f55af;
+    padding: 15px 20px 16px 20px;
+    background: linear-gradient(to right, #f72585 50%, #5f55af 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition:all 2s ease;
+    text-align: center;
 }
 
 
 
-
-
-
-
-.xiati {
-
-    height: 550px;
-
-
-
+button:hover {
+    background-position: left bottom;
 }

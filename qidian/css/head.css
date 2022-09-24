@@ -65,9 +65,15 @@ body{
     height:97px;
 
 }
-.video{
-    width: 100%;
+.word{
+    position: absolute;
+    z-index: 120;
+}
 
+.video{
+    position: absolute;
+    width: 100%;
+    z-index: 30;
 }
 .a{
    width: 100%;
@@ -75,7 +81,7 @@ body{
 
 }
 .nav {
-
+    backdrop-filter: blur(5px);
     line-height:97px ;
     /*background-color: #362626;*/
 
@@ -85,10 +91,7 @@ body{
     width:680px;
     float: right;
     top:0;
-
     border-bottom: 1px solid #fff;
-
-
 }
 
 .nav li{
