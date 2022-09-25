@@ -104,6 +104,12 @@
     width: 760px;
     height: 320px;
 }
+.B:hover mask{
+    display: block;
+}
+.mask{
+    position: absolute;
+}
 .B img{
     position: relative;
     width: 430px;

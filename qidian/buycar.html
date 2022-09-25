@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="SHORTCUT ICON" href="../unit03/Image/logo-mobile1.png">
+    <link rel="SHORTCUT ICON" href="Image/logo-mobile1.png">
     <link rel="stylesheet" type="text/css" href="css/buycar.css">
+    <script type="text/javascript" src="js/js1.js" ></script>
     <meta charset="UTF-8">
     <title>ben's pay</title>
 </head>
@@ -21,9 +22,9 @@
                 A
             </h1>
         </div>
-        <div class= "car">
+        <div class= "car"  >
             <a class="carOne">
-                <img src="Image/a1.png">
+                <img src="Image/a1.png" onclick="buy('长轴距A级轿车','Image/a1.png')">
                 <div class="describe">
                     长轴距A级轿车
                 </div>
@@ -31,7 +32,7 @@
                 <span class="price">￥29.63万</span>
                 <span class="bottom_in_buy">立即购买</span>
             </a>
-            <a class="carOne">
+            <a class="carOne" onclick="buy('A级掀背车','Image/a2.png')">
                 <img src="Image/a2.png">
                 <div class="describe">
                     A级掀背车
@@ -40,7 +41,7 @@
                 <span class="price">￥29.63万</span>
                 <span class="bottom_in_buy">立即购买</span>
             </a>
-            <a class="carOne">
+            <a class="carOne" onclick="buy('AMG A 35 4MATIC','Image/a3.png')">
                 <img src="Image/a3.png">
                 <div class="describe">
                     AMG A 35 4MATIC
@@ -60,8 +61,8 @@
                 B
             </h1>
         </div>
-        <div class= "car">
-            <a class="carOne">
+        <div class= "car"  >
+            <a class="carOne" onclick="buy('B级运动旅行车','Image/b1.png')">
                 <img src="Image/b1.png">
                 <div class="describe">
                     B级运动旅行车
@@ -82,8 +83,8 @@
                 C
             </h1>
         </div>
-        <div class= "car">
-            <a class="carOne">
+        <div class= "car"  >
+            <a class="carOne" onclick="buy('长轴距C级运动轿车','Image/c1.png')">
                 <img src="Image/c1.png">
                 <div class="describe">
                     长轴距C级运动轿车
@@ -92,7 +93,7 @@
                 <span class="price">￥35.63万</span>
                 <span class="bottom_in_buy">立即购买</span>
             </a>
-            <a class="carOne">
+            <a class="carOne" onclick="buy('标准轴距C级车运动版','Image/c2.png')">
                 <img src="Image/c2.png">
                 <div class="describe">
                     标准轴距C级车运动版
@@ -101,7 +102,7 @@
                 <span class="price">￥45.63万</span>
                 <span class="bottom_in_buy">立即购买</span>
             </a>
-            <a class="carOne">
+            <a class="carOne" onclick="buy('AMG C 43 4MATIC 轿车','Image/c3.png')">
                 <img src="Image/c3.png">
                 <div class="describe">
                      AMG C 43 4MATIC 轿车
@@ -122,7 +123,7 @@
             </h1>
         </div>
         <div class= "car">
-            <a class="carOne">
+            <a class="carOne" onclick="buy('长轴距E级运动轿车','Image/e1.png')">
                 <img src="Image/e1.png">
                 <div class="describe">
                     长轴距E级运动轿车
@@ -131,7 +132,7 @@
                 <span class="price">￥50.63万</span>
                 <span class="bottom_in_buy">立即购买</span>
             </a>
-            <a class="carOne">
+            <a class="carOne" onclick="buy('AMG E 53 4MATIC+','Image/e2.png')">
                 <img src="Image/e2.png">
                 <div class="describe"> AMG E 53 4MATIC+
                 </div>
@@ -139,7 +140,7 @@
                 <span class="price">￥80.63万</span>
                 <span class="bottom_in_buy">立即购买</span>
             </a>
-            <a class="carOne">
+            <a class="carOne" onclick="buy('E级轿跑车','Image/e3.png')">
                 <img src="Image/e3.png">
                 <div class="describe">
                     E级轿跑车
@@ -160,7 +161,7 @@
         </div>
         <div class= "car" >
 
-            <a class="carOne" >
+            <a class="carOne" onclick="buy('S级轿车','Image/s1.png')">
                 <img src="Image/s1.png">
                 <div class="describe">
                     S级轿车
@@ -169,14 +170,14 @@
                 <span class="price">￥119.63万</span>
                 <span class="bottom_in_buy">立即购买</span>
             </a>
-            <a class="carOne">
+            <a class="carOne" onclick="buy('梅赛德斯-迈巴赫S级轿车','Image/s2.png')">
                 <img src="Image/s2.png">
                 <div class="describe">
                     梅赛德斯-迈巴赫S级轿车
                 </div>
                 <span class="price">官方指导</span>
                 <span class="price">￥219.63万</span>
-                <span class="bottom_in_buy">立即购买</span>
+                <span class="bottom_in_buy" >立即购买</span>
             </a>
              
 
@@ -195,6 +196,21 @@
             <div class="textSmall">联系作者</div>
         </div>
     </div>
-
+<div class="dialog" id = "d_log">
+    <div class="d_nav">
+        <a onclick="cancel()">
+            <img src="Image/x.png">
+        </a>
+        <h1>购买你的奔驰</h1>
+    </div>
+    <div class="d_pic" >
+        <img id = "d_img" src= "" >
+        <h3>Mersider Benz</h3>
+    </div>
+    <div class="d_text">
+        <img src="Image/QD.png">
+        <div class="confirm" onclick="confirm()">立即购买</div>
+    </div>
+</div>
 </body>
 </html>

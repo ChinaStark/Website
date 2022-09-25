@@ -2,12 +2,7 @@
     padding : 0;
     margin: 0;
 }
-@media only screen and (max-width: 768px) {
-    /* 针对平板电脑： */
 
-    .nav{background-color: #5f55af}
-
-}
 
 .nav{
     background-color: black;
@@ -27,7 +22,7 @@
     list-style: none;
     width:100%;
     float: right;
-    border-bottom :  1px solid whitesmoke;
+    border-bottom :  1px solid  #bfbfbf;
 
 }
 .navlist li a{
@@ -35,7 +30,7 @@
     display: block;
     margin-left: 5px;
     padding: 20px 16px;
-    color:#fff;
+    color: #bfbfbf;
     width:100%;
     text-decoration: none;
 }
@@ -198,4 +193,66 @@ img{
     color: white;
     font-size: xx-large;
     font-style: oblique;
+}
+
+@media only screen and (max-width: 1200px) {
+    /* 针对平板电脑： */
+
+    .nav{height: 15%}
+    .navlist{
+
+        width: 300px;
+    }
+    .the h2 {
+        font-size: 1px;
+    }
+
+    .the h3{font-size: 1px;}
+    .navlist ul{
+        width: 350px;
+        margin-right:    0;
+        margin-top: 0;
+
+    }
+    .text1{
+        font-size: 15px;
+        margin-top: 380px;
+    }
+    .the span {
+        width:100px;
+        height:20px;
+        font-size: 10px;
+        line-height: 22px;
+
+
+    }
+
+    .the a {
+        width:285px;
+        height:50px;
+        text-decoration: none;
+        color:#fff;
+    }
+    .the {
+
+        top:80px;
+        left:30px;
+    }
+
+    .navlist ul a{
+        margin-left: 1px;
+        padding: 5px 5px;
+    }
+    .photo{
+        overflow: hidden;
+    }
+    .r_ine{
+        width:0;
+        height:45px;
+    }
+    .navlist li{
+        margin-left: 2px;
+        font-size: 1px;
+    }
+
 }
