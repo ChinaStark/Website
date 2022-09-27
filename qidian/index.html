@@ -22,14 +22,21 @@
         </a>
         <div class="navlist " >
             <ul  >
-                <li ><a href="Allcar.html">全部车型</a></li>
-                <li ><a title="下载图片" href="./Image/photo.zip"  >购车支持</a></li>
-                <li ><a href="./buycar.html"  >BENZ购买</a></li>
-                <li ><a href="#" onclick="ban()">BENZ服务</a></li>
-                <li ><a href="#" onclick="ban()">BENZ天地</a></li>
+                <li class="list" ><a href="Allcar.html">全部车型</a></li>
+                <li class="list"><a title="下载图片" href="./Image/photo.zip"  >购车支持</a></li>
+                <li class="list"><a href="./buycar.html"  >BENZ购买</a></li>
+                <li class="list"><a href="#" onclick="ban()">BENZ服务</a></li>
+                <li class="list"><a href="#" onclick="ban()">BENZ天地</a></li>
                 <div class="r_ine"></div>
             </ul>
         </div>
+    </div>
+    <div class="listSed"    id="Sednav">
+        <div    class="SedLi"><a href="Allcar.html">轿车</a></div>
+        <div   class="SedLi"><a href="#copyright">SUV</a></div>
+        <div   class="SedLi"><a href="#top">轿车&敞篷</a></div>
+        <div   class="SedLi"><a href="#top">MPV</a></div>
+        <div   class="SedLi"><a href="#top">Benz·中国</a></div>
     </div>
     <div class="photo">
         <div class="the">
@@ -37,12 +44,12 @@
             <h3>龙智亮的Benz</h3><br>
             <a href="#copyright"  ><span>版权声明</span></a>
         </div>
-        <img src="Image/c6.png">
+        <img   id="mouseout" src="Image/bg1.jpg">
     </div>
 
     <div>
         <video   autoplay="autoplay" loop="loop"   x-webkit-airplay="true" webkit-playsinline="true" muted="">
-            <source src="video/car.mp4" type="video/mp4">
+            <source src="video/cs_3296.mp4" type="video/mp4">
         </video>
 
         <div class="text1">
@@ -74,5 +81,31 @@
     <span class="bt" onclick="destory()"> <font size="3" >知道了</font></span>
 </div>
 
+
+<script>
+    let a = [
+        ['轿车','SUV','轿车&敞篷','MPV','Benz·中国'],['时间','销售','询底价','开奔驰','下载图片'],['20-30万','30-50万','50-120万','120-200万','200-万'],
+        ['售后','维修','保养','二手售卖','更换'],['BEN&VIP','BEN&活动','BEN&车展','BEN&赛事','BEN&高定']
+    ]
+    let list = document.getElementsByClassName("list");
+    for (let i = 0; i < 5; i++) {
+        list[i].onmouseover = function () {
+            //设置其背景颜色为黄色
+            let list2 = document.getElementsByClassName("SedLi");
+            for(let j = 0;j<list2.length;j++){
+                list2[j].innerHTML = a[i][j];
+            }
+            document.getElementById('Sednav').style.display = 'block'
+
+        };
+        //为li注册鼠标离开事件
+        document.getElementById('mouseout').onmouseover = function () {
+            //恢复到这个标签默认的颜色
+            document.getElementById('Sednav').style.display = "";
+        };
+    }
+
+
+</script>
 </body>
 </html>
