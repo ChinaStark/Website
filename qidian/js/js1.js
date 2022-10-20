@@ -31,3 +31,9 @@ function login(){
 function cancelForlogin(){
     document.getElementById("login").style.display = "none"
 }
+function clear_content()
+{
+    alert('暂未开放')
+    document.getElementById("username").value="";
+    document.getElementById("password").value="";
+}
