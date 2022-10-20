@@ -24,3 +24,10 @@ function pic    (e) {
 function cancel(){
     document.getElementById("d_log").style.display = "none"
 }
+function login(){
+    document.getElementById("login").style.display =  "block"
+}
+
+function cancelForlogin(){
+    document.getElementById("login").style.display = "none"
+}

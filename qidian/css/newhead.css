@@ -12,8 +12,83 @@
     z-index: 1000;
 
 }
+.login a:active{
+    color: rgb(0,150,190);
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}
+.name input {
+    height: 30px;
+    width: 70%;
+    font-size: 20px;
+    margin-top: 10%;
+    outline: none;
+    margin-left: 15%;
+    border:0;
+}
+.name hr{
+    width: 75%;
+    margin: 0 auto;
+}
+.underLogin{
+    margin-left: 60px;
+    text-align: center;
+}
+.underLogin img{
+    height: 50px;
+    margin: 0 60px 30px 0;
+}
+.btt{
+    text-align: center;
+    line-height: 350%;
+    color: white;
+    margin: 8% auto;
+    display: block;
+    height: 12%;
+    width:  75%;
+    background-color: rgb(0,173,239);
+}
 
+.topp{
+    text-align: center;
+    line-height: 800%;
+    height:15%;
+    width: 600px;
+    background-color: white;
+
+}
+
+.topp img{
+    float: right;
+}
+.loginImg {
+    border-radius: 12px;
+    box-shadow:  5px 5px 5px 1px rgba(81, 81,81,0.6);
+    position: fixed;
+    height: 500px;
+    width: 600px;
+    background-color: white;
+    display: none;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 100;
+}
+
+.login{
+
+    margin-top: 3%;
+    margin-right: 6%;
+    text-align: center;
+    color: white;
+    float: right;
+}
 .navlist{
+    margin-right: 1%;
     float: right;
     width: 50%;
 }
