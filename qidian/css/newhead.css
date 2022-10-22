@@ -409,3 +409,27 @@ img {
         height: 270px;
     }
 }
+
+.circle{	/*设置圆点位置*/
+    position: absolute;/*给子元素设置绝对定位，相对于父元素*/
+    left:700px;/*距离父元素内部的右边距离*/
+    bottom:25px;/*距离父元素内部的上边距离*/
+}
+.circle a{
+    margin-right: 10px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border:1px solid rgba(0,0,0,.05);
+    background: rgba(255,255,255,.4);
+}
+.circle a:hover{
+    width: 9px;
+    height: 9px;
+    background: white;
+    left:0;
+    /*transition: all 0.5s;*/
+    /*background:#fff;*/
+    border:3px solid rgba(0,0,0,.1);
+}

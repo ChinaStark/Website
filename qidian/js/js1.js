@@ -52,10 +52,21 @@ function clear_content() {
 function showImg() {
     i++;
     if (i === 6) {
-        i = 1;
+        i = 0;
     }
     // document.getElementById("mouseout").setAttribute("src", "Image/"+changePic[i]);
+    if(i === 0){
+        document.getElementById("id5").style.background = "rgba(255,255,255,.4)";
+    }else {
+        document.getElementById("id"+(i-1).toString()).style.background = "rgba(255,255,255,.4)";
+    }
 
     document.getElementById("mouseout").style.backgroundImage = 'url("Image/'+changePic[i]+'")';
+
+    document.getElementById("id"+(i).toString()).style.background = "white";
     time = setTimeout("showImg()", 4000);
+}
+function over(e){
+    console.log(e)
+    document.getElementById("mouseout").style.backgroundImage = 'url("Image/'+changePic[e-1]+'")';
 }
