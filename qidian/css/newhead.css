@@ -1,25 +1,28 @@
-*{
-    padding : 0;
+* {
+    padding: 0;
     margin: 0;
 }
 
 
-.nav{
+.nav {
     background: url("../Image/icon-header-dark.png") no-repeat;
     background-size: 130%;
     width: 100%;
     height: 13%;
-     position:fixed;
+    position: fixed;
     z-index: 1000;
 
 }
-.login a:active{
-    color: rgb(0,150,190);
+
+.login a:active {
+    color: rgb(0, 150, 190);
 }
-.login a{
+
+.login a {
     text-decoration: none;
     color: white;
 }
+
 .name input {
     height: 30px;
     width: 70%;
@@ -27,47 +30,52 @@
     margin-top: 10%;
     outline: none;
     margin-left: 15%;
-    border:0;
+    border: 0;
 }
-.name hr{
+
+.name hr {
     width: 75%;
     margin: 0 auto;
 }
-.underLogin{
+
+.underLogin {
     margin-left: 60px;
     text-align: center;
 }
-.underLogin img{
+
+.underLogin img {
     height: 50px;
     margin: 0 60px 30px 0;
 }
-.btt{
+
+.btt {
     text-align: center;
     line-height: 350%;
     color: white;
     margin: 8% auto;
     display: block;
     height: 12%;
-    width:  75%;
-    background-color: rgb(0,173,239);
+    width: 75%;
+    background-color: rgb(0, 173, 239);
 }
 
-.topp{
+.topp {
     font-weight: lighter;
     text-align: center;
     line-height: 800%;
-    height:15%;
+    height: 15%;
     width: 600px;
     background-color: white;
 
 }
 
-.topp img{
+.topp img {
     float: right;
 }
+
 .loginImg {
     border-radius: 12px;
-    box-shadow:  5px 5px 5px 1px rgba(81, 81,81,0.6);
+    box-shadow: 5px 5px 5px 1px rgba(81, 81, 81, 0.6);
     position: fixed;
     height: 500px;
     width: 600px;
@@ -81,7 +89,7 @@
     z-index: 100;
 }
 
-.login{
+.login {
 
     margin-top: 3%;
     margin-right: 6%;
@@ -89,99 +97,112 @@
     color: white;
     float: right;
 }
-.navlist{
+
+.navlist {
     margin-right: 1%;
     float: right;
     width: 50%;
 }
-.navlist ul{
+
+.navlist ul {
     margin-top: 0.5%;
     list-style: none;
-    width:100%;
+    width: 100%;
     float: right;
     /*border-bottom :  1px solid  #bfbfbf;*/
 
 }
-.navlist li a{
+
+.navlist li a {
     font-weight: normal;
     display: block;
     margin-left: 5px;
     padding: 20px 16px;
     color: #bfbfbf;
-    width:100%;
+    width: 100%;
     text-decoration: none;
 }
-.navlist li{
+
+.navlist li {
     margin-top: 15px;
-    float:left;
+    float: left;
     margin-left: 5px;
     font-size: 20px;
 }
+
 .r_ine {
-    width:202px;
-    height:92px;
+    width: 202px;
+    height: 92px;
 
 }
-.navlist ul li:not(.Sed):hover{
+
+.navlist ul li:not(.Sed):hover {
     border-bottom: 4px solid #1C69D4;
 }
 
-.nav img{
+.nav img {
     margin-left: 1%;
-    margin-top:0.5%;
+    margin-top: 0.5%;
     width: 20%;
 }
-.photo{
+
+.photo {
     width: 100%;
-    background-color : black;
+    background-color: black;
     overflow: hidden;
 }
-.photo img{
+
+.photo img {
     width: 100%;
 
-    text-align: right;
+    /*text-align: right;*/
 }
 
-.text{
+.text {
     display: block;
-     height: 120px;
+    height: 120px;
 
     background-color: black;
     text-align: center;
     text-decoration: none;
     text-decoration-color: #bfbfbf;
 }
-.text i{
+
+.text i {
     color: #bfbfbf;
 }
-.text a{
+
+.text a {
     text-decoration: none;
     color: #bfbfbf;
 }
 
 
-
-video{
+video {
     width: 100%;
 }
-img{
+
+img {
 
 }
 
-.box img{
+.box img {
     position: absolute;
     right: 25px;
     top: 20px;
 }
-.box img:hover{
+
+.box img:hover {
     transform: rotate(360deg);
     transition: 2s;
 }
-.tap{
+
+.tap {
     background-color: black;
     filter: blur(8px);
 }
-.bt{
+
+.bt {
     padding: 0;
     background-color: black;
     width: 180px;
@@ -196,16 +217,19 @@ img{
     line-height: 38px;
 
 }
-.textoffont{
+
+.textoffont {
     position: absolute;
     top: 60px;
     left: 35px;
     right: 35px;
 }
-.bt:hover{
+
+.bt:hover {
     background-color: #bfbfbf;
 }
-.box{
+
+.box {
     display: block;
     position: fixed;
     top: 0;
@@ -221,39 +245,40 @@ img{
 
     background-color: white;
 }
+
 .the {
     position: absolute;
-    top:160px;
-    left:130px;
+    top: 160px;
+    left: 130px;
 }
 
 .the h2 {
-    font-size:50px;
-    color:#fff;
+    font-size: 50px;
+    color: #fff;
 
 }
 
 .the h3 {
-    font-size:25px;
-    color:#fff;
+    font-size: 25px;
+    color: #fff;
 }
 
 .the span {
-    width:285px;
-    height:50px;
-    display:block;
-    background-color:#1C69D4;
-    text-align:center;
+    width: 285px;
+    height: 50px;
+    display: block;
+    background-color: #1C69D4;
+    text-align: center;
     line-height: 50px;
     font-size: 1em;
 
 }
 
 .the a {
-    width:285px;
-    height:50px;
+    width: 285px;
+    height: 50px;
     text-decoration: none;
-    color:#fff;
+    color: #fff;
 
 
 }
@@ -262,26 +287,27 @@ img{
     background-color: #0066B1;
 }
 
-.text1{
+.text1 {
     width: 450px;
     position: relative;
-    top:-600px;
-    left:66px;
+    top: -600px;
+    left: 66px;
     color: white;
     font-size: xx-large;
     font-style: oblique;
 }
 
-.listSed{
+.listSed {
     position: fixed;
-    background-color: rgb(31,31,31);
-     width: 100%;
+    background-color: rgb(31, 31, 31);
+    width: 100%;
     height: 10%;
     margin-top: 6%;
     z-index: 20;
-    display: none ;
+    display: none;
 }
-.SedLi{
+
+.SedLi {
     color: white;
     float: left;
     width: 20%;
@@ -295,30 +321,38 @@ img{
 
 @media only screen and (max-width: 1200px) {
     /* 针对平板电脑： */
+    .nav {
+        height: 15%
+    }
 
-    .nav{height: 15%}
-    .navlist{
+    .navlist {
 
         width: 300px;
     }
+
     .the h2 {
         font-size: 1px;
     }
 
-    .the h3{font-size: 1px;}
-    .navlist ul{
+    .the h3 {
+        font-size: 1px;
+    }
+
+    .navlist ul {
         width: 350px;
-        margin-right:    0;
+        margin-right: 0;
         margin-top: 0;
 
     }
-    .text1{
+
+    .text1 {
         font-size: 15px;
         margin-top: 380px;
     }
+
     .the span {
-        width:100px;
-        height:20px;
+        width: 100px;
+        height: 20px;
         font-size: 10px;
         line-height: 22px;
 
@@ -326,31 +360,52 @@ img{
     }
 
     .the a {
-        width:285px;
-        height:50px;
+        width: 285px;
+        height: 50px;
         text-decoration: none;
-        color:#fff;
+        color: #fff;
     }
+
     .the {
 
-        top:80px;
-        left:30px;
+        top: 80px;
+        left: 30px;
     }
 
-    .navlist ul a{
+    .navlist ul a {
         margin-left: 1px;
         padding: 5px 5px;
     }
-    .photo{
+
+    .photo {
         overflow: hidden;
     }
-    .r_ine{
-        width:0;
-        height:45px;
+
+    .r_ine {
+        width: 0;
+        height: 45px;
     }
-    .navlist li{
+
+    .navlist li {
         margin-left: 2px;
         font-size: 1px;
     }
 
+}
+
+
+.outer {
+    display: block;
+    background-image: url("../Image/bg1.jpg");
+    background-size: cover;
+    width: 1550px;
+    height: 750px;
+    transition: all 1s;
+}
+
+@media screen and (max-device-width: 600px) {
+    .outer{
+        width: 550px;
+        height: 270px;
+    }
 }
