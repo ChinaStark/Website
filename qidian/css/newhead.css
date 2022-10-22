@@ -5,7 +5,8 @@
 
 
 .nav{
-    background-color: black;
+    background: url("../Image/icon-header-dark.png") no-repeat;
+    background-size: 130%;
     width: 100%;
     height: 13%;
      position:fixed;
@@ -94,7 +95,7 @@
     width: 50%;
 }
 .navlist ul{
-    margin-top: 1%;
+    margin-top: 0.5%;
     list-style: none;
     width:100%;
     float: right;
@@ -127,7 +128,7 @@
 
 .nav img{
     margin-left: 1%;
-    margin-top: 1%;
+    margin-top:0.5%;
     width: 20%;
 }
 .photo{
