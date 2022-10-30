@@ -139,7 +139,9 @@
 .navlist ul li:not(.Sed):hover {
     border-bottom: 4px solid #1C69D4;
 }
-
+.fill{
+    position: relative;
+}
 .nav img {
     margin-left: 1%;
     margin-top: 0.5%;
@@ -147,6 +149,7 @@
 }
 
 .photo {
+    position: relative;
     width: 100%;
     background-color: black;
     overflow: hidden;
@@ -403,12 +406,12 @@ img {
     transition: all 1s;
 }
 
-@media screen and (max-device-width: 600px) {
-    .outer{
-        width: 550px;
-        height: 270px;
+    @media screen and (max-device-width: 600px) {
+        .outer{
+            width: 550px;
+            height: 270px;
+        }
     }
-}
 
 .circle{	/*设置圆点位置*/
     position: absolute;/*给子元素设置绝对定位，相对于父元素*/

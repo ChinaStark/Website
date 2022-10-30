@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q1</title>
+    <style>
+        .demo {
+            border-top: 100px solid #ccc;
+            height: 300px;
+        }
+
+        @keyframes grow {
+            0% { font-size: 0; }
+            100% { font-size: 40px; }
+        }
+
+        .demo:hover .grows {
+            animation-name: grow;
+            animation-duration: 3s;
+        }
+
+        .demo:hover .growsandstays {
+            animation-name: grow;
+            animation-duration: 3s;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+        }
+
+    </style>
+</head>
+<body>
+<p>Move your mouse over the gray box!</p>
+<div class="demo">
+    <div class="growsandstays">This grows and stays big.</div>
+    <div class="grows">This just grows.</div>
+</div>
+</body>
+</html>

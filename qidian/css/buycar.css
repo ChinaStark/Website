@@ -8,14 +8,21 @@
     border-bottom: 1px solid rgb(160,160,160);
 	margin-left: 10%;
     z-index: 0;
-    margin-top: 0.3%;
+    /*margin-top: 0.3%;*/
 	color: #FFFFFF !important;
 	width: 80%;
     font-family: 华文楷体;
 	height: 50px;
 	text-align: center;
-	line-height: 200%;
+	line-height: 50px;
 	font-size: 25px;
+}
+.mar{
+    position: fixed;
+    z-index: 1000;
+    top: 12%;
+    width: 80%;
+    left: 10%;
 }
 body{
     background-color: rgb(18,18,18);
@@ -45,12 +52,12 @@ body{
 .bottom_in_top{
     font-weight: bold;
     text-align:center;
-    line-height: 50px;
+    line-height: 300%;
     color: white;
     float: right;
     margin: 18px 100px 0 0;
-    width: 180px;
-    height: 50px;
+    width: 15%;
+    height: 50%;
     border: 1px solid  gray;
     background-color: rgb(18,18,18);
 }
@@ -157,8 +164,8 @@ body{
     line-height: 50px;
     color: white;
     float: right;
-    margin: 18px 65px 0 0;
-    width: 180px;
+    margin: 18px 20% 0 0;
+    width: 60%;
     height: 50px;
     border: 1px solid  gray;
     background-color: rgb(18,18,18);
@@ -211,7 +218,7 @@ body{
     width: 50%;
     margin: -5% 0 0  20%;
 }
-.confirm{
+.confirm {
     background-color: silver;
     width: 55%;
     height: 20%;
@@ -222,5 +229,15 @@ body{
     color: #262626;
     font-size: 20px;
     line-height: 230%;
+}
 
+
+
+@media screen and (max-device-width: 600px) {
+    .nav{
+        height: 5%;
+    }
+    .mar{
+        top: 5%;
+    }
 }
