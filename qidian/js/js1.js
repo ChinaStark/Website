@@ -70,3 +70,23 @@ function over(e){
     console.log(e)
     document.getElementById("mouseout").style.backgroundImage = 'url("Image/'+changePic[e-1]+'")';
 }
+
+
+
+function ChangePicinSerive(e){
+    document.getElementById("1").style.color = "rgb(151,151,151)";
+    document.getElementById("2").style.color = "rgb(151,151,151)";
+    document.getElementById("3").style.color = "rgb(151,151,151)";
+    document.getElementById("4").style.color = "rgb(151,151,151)";
+    document.getElementById(e).style.color = "white";
+    document.getElementById("leftPic").src = "Image/left"+e+".jpg";
+    if(e === 3){
+        document.getElementById("rightPic").style.width = "77%"
+        document.getElementById("rightPic").src = "Image/right"+e+".jpg"
+    }else {
+        document.getElementById("rightPic").style.width = "100%"
+        document.getElementById("rightPic").src = "Image/right"+e+".jpg";
+    }
+
+
+}
