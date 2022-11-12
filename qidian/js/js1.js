@@ -12,7 +12,6 @@ function destory() {
     document.getElementById("bt").style.display = "none";
     document.getElementById("tapp").style.filter = "none";
 }
-
 function confirm() {
     document.getElementById("d_log").style.display = "none";
     alert("您已成功预定'   " + this.name + "   '请尽快联系作者付款");

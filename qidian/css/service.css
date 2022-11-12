@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: rgb(15,15,1);
 }
 .nav{
     width: 100%;
@@ -40,7 +39,7 @@
 }
 .nav_medium{
     margin: 170px 0 0 0;
-    float: left;
+    float:  left;
     /*display: inline-block;*/
     top: 60px;
     color: rgb(151,151,151);
@@ -48,7 +47,11 @@
 .NO1{
     color: white;
 }
-
+.medium{
+	width:100%;
+	height:680px;
+    background-color: rgb(15,15,15);
+}
 .nav_medium li{
     font-size: 20px;
     margin: 20px 0 20px 50px;
@@ -58,7 +61,7 @@
 
 .left_pic{
     float: right;
-    width: 1200px;
+    width: 80%;
 }
 
 

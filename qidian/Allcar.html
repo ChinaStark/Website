@@ -2,72 +2,154 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"><script type="text/javascript" src="js/js1.js" ></script>
   <link rel="SHORTCUT ICON" href="Image/logo-mobile1.png">
     <title>全部车型</title>
   <link rel="stylesheet" type="text/css" href="css/Allcar.css"/>
  </head>
-<body class="body">
-<img src="Image/logo-mobile.png" width="330" height="84" class="img">
+<body>
+<div class="loginImg" id="login">
+    <div class="topp">
+        <a onClick="cancelForlogin()"><img id="pic" src="Image/x.png"></a>
+        <h1>Merside Benz</h1>
+
+    </div>
+    <div class="name">
+        <input placeholder="请输入用户名" id="username" title="输入用户名">
+        <hr>
+        <input placeholder="请输入密码" type="password" id="password" title="输入密码">
+        <HR>
+    </div>
+    <div class="btt"  onclick="clear_content()">
+        登陆
+    </div>
+    <div class="underLogin">
+        <a onClick="alert('暂未开放')"><img src="Image/QQ.png"></a>
+        <a onClick="alert('暂未开放')"><img src="Image/wx.png"></a>
+        <a onClick="alert('暂未开放')"><img src="Image/wo.png"></a>
+    </div>
+
+
+</div>
+<div class="nav  "  >
+    <a>
+        <img src="Image/logo30.png"  usemap="#Map" class="img">
+        <map name="Map">
+            <area title="奔驰官网" shape="rect" coords="5,2,77,81" href="https://www.mercedes-benz.com.cn/">
+            <area title="AMG官网" shape="rect" coords="180,17,328,82" href=""  >
+        </map>
+    </a>
+    <div class="login">
+        <a onClick="login()">登陆</a>
+    </div>
+    <div class="navlist " >
+        <ul  >
+            <li class="list" ><a href="Allcar.html">全部车型</a></li>
+            <li class="list"><a title="service" href="./service.html"  >购车支持</a></li>
+            <li class="list"><a href="./buycar.html"  >BENZ购买</a></li>
+            <li class="list"><a href="#" onClick="ban()">BENZ服务</a></li>
+            <li class="list"><a href="#" onClick="ban()">BENZ天地</a></li>
+            <div class="r_ine"></div>
+        </ul>
+    </div>
+</div>
 
 <div class="next">
-    <div class="textt">
-        <h1 >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;轿车<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SUV<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;轿跑车&敞篷跑车<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MPV<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;纯电动车<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;插电式混合动力<br>
+    <div class="left">
+        <div class="textt">
+            <h1 >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;轿车<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SUV<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;轿跑车&敞篷跑车<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MPV<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;纯电动车<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;插电式混合动力<br>
 
 
 
-        </h1>
-        <span onclick="window.location.href='buycar.html'">车辆选购</span>
-    </div>
-    <div class="all">
-        <div class="Amask">
-            <div class="A" onclick="window.location.href = 'buycar.html#A'">
-                <IMG src="Image/AS_PC.png">
-                <div><h1 CLASS="T">A</h1></div>
-
-            </div>
-        </div>
-        <div class="Bmask">
-            <div class="B" onclick="window.location.href = 'buycar.html#B'">
-                <img src= "Image/B.png">
-                <h1 CLASS="T1">B</h1>
-                <img class="mask" src="Image/c-pc.png">
-            </div>
-
-
-        </div>
-        <div class="Emask" onclick="window.location.href = 'buycar.html#C'">
-            <div class="E">
-                <img src="Image/S.png"><h1 CLASS="T2">C</h1>
-            </div>
-        </div>
-        <div class="Smask" onclick="window.location.href = 'buycar.html#S'">
-            <div class="S">
-                <img src="Image/E.png"><h1 CLASS="T3">S</h1>
-            </div>
-        </div>
-        <div class="Cmask" onclick="window.location.href = 'buycar.html#E'">
-            <div class="C">
-                <img src="Image/C.png"><h1 CLASS="T4">E</h1>
-            </div>
-        </div>
-
-        <div class="text" >
-            <a>&copy;BMW 中国·江西科技师范大学 2022</a><br>
-            <a href="#">联系我们</a><br>
-            <a href="#">法律声明</a><br>
-            <a name="copyright" href="#">科师大ICP010292019号</a><br>
-            <a href="#">科师大公网安备22111231号</a><br>
-
+            </h1>
+            <span onclick="window.location.href='buycar.html'">车辆选购</span>
         </div>
     </div>
+    <div class="right">
+        <div class="allhide">
+            <div class="all">
+                <div class="Amask">
+                    <div class="A" onclick="window.location.href = 'buycar.html#A'">
+                        <IMG src="Image/AS_PC.png">
+                        <div><h1 CLASS="T">A</h1></div>
+
+                    </div>
+                </div>
+                <div class="Bmask">
+                    <div class="B" onclick="window.location.href = 'buycar.html#B'">
+                        <img src= "Image/B.png">
+                        <h1 CLASS="T1">B</h1>
+                        <img class="mask" src="Image/c-pc.png">
+                    </div>
+
+
+                </div>
+                <div class="Emask" onclick="window.location.href = 'buycar.html#C'">
+                    <div class="E">
+                        <img src="Image/S.png"><h1 CLASS="T2">C</h1>
+                    </div>
+                </div>
+                <div class="Smask" onclick="window.location.href = 'buycar.html#S'">
+                    <div class="S">
+                        <img src="Image/E.png"><h1 CLASS="T3">S</h1>
+                    </div>
+                </div>
+                <div class="Cmask" onclick="window.location.href = 'buycar.html#E'">
+                    <div class="C">
+                        <img src="Image/C.png"><h1 CLASS="T4">E</h1>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
     </div>
+<div class="underall">
+    <div class="under">
+        <div class="under_left">
+            <img src="Image/logo30.png">
+            <h6>  &nbsp;作者:&nbsp;龙智亮 | 指导老师:&nbsp;熊筱芳 | 班级:&nbsp;20计科二班</h6>
+            <h6>&nbsp;地址 :  江西省南昌市学府大道589号江西科技师范大学红角洲校区 </h6>
+        </div>
+        <div class="under_right">
+            <div class="under_right_li">
+                <ul>
+                    <li>
+                        <img src="Image/wechat-logo.png">
+                        <h6>官方微信</h6>
+                    </li>
+                    <li>
+                        <img src="Image/weibo-logo.png">
+                        <h6> 官方微博</h6>
+                    </li>
+                    <li>
+                        <img src="Image/douyin-logo.png">
+                        <h6> 官方抖音</h6>
+                    </li>
+                    <li>
+                        <img src="Image/tianmao-logo.png">
+                        <h6>天猫官方旗舰店</h6>
+                    </li>
+                    <li>
+                        <img src="Image/logo@3x.png">
+                        <h6> 官方在线展厅</h6>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 
 
 
