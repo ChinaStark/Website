@@ -101,7 +101,7 @@
 .navlist {
     margin-right: 1%;
     float: right;
-    width: 50%;
+    width: 60%;
 }
 
 .navlist ul {
@@ -416,7 +416,7 @@ img {
     }
 @media screen and (max-width: 1500px) {
     .outer{
-        width: 1343px;
+        width: 1381px;
         height: 670px;
     }
 }

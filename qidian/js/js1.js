@@ -6,7 +6,7 @@ function ban() {
     alert("暂未开放")
 }
 
-let name = ""
+let name = "b"
 
 function destory() {
     document.getElementById("bt").style.display = "none";
@@ -66,7 +66,6 @@ function showImg() {
     time = setTimeout("showImg()", 4000);
 }
 function over(e){
-    console.log(e)
     document.getElementById("mouseout").style.backgroundImage = 'url("Image/'+changePic[e-1]+'")';
 }
 

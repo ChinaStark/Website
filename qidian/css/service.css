@@ -2,11 +2,6 @@
     padding: 0;
     margin: 0;
 }
-.nav{
-    width: 100%;
-    height: 115px;
-    background-color: black;
-}
 .images_logo{
     margin: 30px 120px;
     height: 70px;
@@ -49,7 +44,7 @@
 }
 .medium{
 	width:100%;
-	height:680px;
+	height:760px;
     background-color: rgb(15,15,15);
 }
 .nav_medium li{
@@ -60,6 +55,7 @@
 }
 
 .left_pic{
+    margin-top: 5%;
     float: right;
     width: 80%;
 }
@@ -129,4 +125,77 @@
     float: right;
     margin: 7px 6px;
     /*line-height: 250%;*/
+}
+
+
+.nav {
+    background: url("../Image/icon-header-dark.png") no-repeat;
+    background-size: 130%;
+    width: 100%;
+    height: 13%;
+    position: fixed;
+    z-index: 1000;
+
+}
+.login {
+
+    margin-top: 3%;
+    margin-right: 6%;
+    text-align: center;
+    color: white;
+    float: right;
+}
+
+.r_ine {
+    width: 202px;
+    height: 92px;
+
+}
+.nav img {
+    margin-left: 1%;
+    margin-top: 0.5%;
+    width: 20%;
+}
+
+
+.navlist {
+    margin-right: 1%;
+    float: right;
+    width: 60%;
+}
+
+.navlist ul {
+    margin-top: 0.5%;
+    list-style: none;
+    width: 100%;
+    float: right;
+    /*border-bottom :  1px solid  #bfbfbf;*/
+
+}
+
+.navlist li a {
+    font-weight: normal;
+    display: block;
+    margin-left: 5px;
+    padding: 20px 16px;
+    color: #bfbfbf;
+    width: 100%;
+    text-decoration: none;
+}
+
+.navlist li {
+    margin-top: 15px;
+    float: left;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.r_ine {
+    width: 202px;
+    height: 92px;
+
+}
+
+.navlist ul li:not(.Sed):hover {
+    border-bottom: 4px solid #1C69D4;
 }
