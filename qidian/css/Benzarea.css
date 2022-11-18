@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color:black;
+    height: 750px;
+}
+.images_logo{
+    margin: 30px 120px;
+    height: 70px;
+}
+.title{
+    width: 100%;
+    height: 115px;
+    background-color: black;
+}
+.images_design{
+    position: absolute;
+    margin: 13% 45% ;
+}
+.images{
+    margin-top: 5%;
+    width: 100%;
+}
+
+.hh7{
+    font-family: 华文中宋;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 30px;
+    transform: scale(1, 2);
+    top: 1350px;
+    color: white;
+
+}
+
+.hh6{
+    font-family: 华文中宋;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 30px;
+    transform: scale(1, 2);
+    top: 1800px;
+    color: white;
+
+}
+
+.medium_pic{
+    margin: 60px 0 20px 0;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(17,17,17);
+}
+.medium_pic_left{
+    float: left;
+    margin: 0 0 15px 0;
+    overflow: hidden;
+    width: 68%;
+    height: 300px;
+    background-color: rgb(17,17,17);
+}
+
+.medium_pic_left img{
+    width: 100%;
+}
+
+.medium_pic_right{
+    margin: 0 0 15px 0;
+    float: right;
+    overflow: hidden;
+    width: 29%;
+    height: 300px;
+    background-color: black;
+}
+
+.medium_pic_right img{
+    width: 100%;
+}
+
+.medium_pic img{
+    width: 100%;
+}
+
+
+
+.medium h3{
+    color: white;
+    text-align: center;
+    margin: 60px 0 60px 0;
+    font-size: 35px;
+    font-family: 方正姚体;
+    font-weight: lighter;
+}
+.medium h6{
+    color: rgb(184,184,184);
+    line-height:35px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.medium{
+    width: 60%;
+    height:  auto;
+    margin: 0 auto;
+
+}
+.medium_pic_right img:hover{
+    opacity: 0.6;
+    transition: 2s;
+}
+
+.medium_pic_left img:hover{
+    opacity: 0.6;
+    transition: 1s;
+}
+.medium_pic img:hover{
+    opacity: 0.6;
+    transition: 1s;
+
+}
+.coloradjust{
+    width: 100%;
+    height:  1200px;
+    margin: 0 auto;
+    background-color: rgb(17,17,17);
+}
+.boxBottom{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0,0,0);
+}
+
+.text_bottom_img{
+    float: right;
+    font-size: 18px;
+    color: rgb(140,140 ,140);
+}
+.text_bottom_img img{
+    height: 90px;
+    top: -30px;
+    position: relative;
+    right: 130px;
+}
+.text_bottom{
+    position: relative;
+    top: 50px;
+    float: left;
+    width: 80%;
+    margin: 0 auto;
+    height: 30%;
+}
+
+.textSmall{
+    font-weight: normal;
+    font-size: 15px;
+    position: relative;
+    right: 115px;
+    top: -25px;
+}
+
+
+
+
+.under{
+    width: 100%;
+    height: 180px;
+    background-color: black;
+}
+
+.overPic{
+    width: 100%;
+    height: 820px;
+    overflow: hidden;
+    background-color: rgb(17,17,17);
+}
+
+
+.under_left{
+    margin-left: 30px;
+    /*background-color: #0066B1;*/
+    float: left;
+}
+.under_left img{
+    width: 260px;
+    height: 64px;
+    margin-top: 30px;
+    margin-bottom:18px;
+}
+
+.under_left h6{
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    word-spacing: 5px;
+}
+
+
+.under_right{
+    width: 500px;
+    float: right;
+}
+
+.under_right_li ul{
+    margin-top: 30px;
+}
+.under_right_li img{
+    width: 30px;
+    height: 30px;
+}
+
+.under_right_li li{
+    margin: 20px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    float: left;
+}
+.under_right_li li img{
+    float: left;
+}
+
+.under_right_li li h6{
+    float: right;
+    margin:7px 6px;
+    /*line-height: 250%;*/
+}
+
+
+.nav {
+    background: url("../Image/icon-header-dark.png") no-repeat;
+    background-size: 130%;
+    width: 100%;
+    height: 13%;
+    position: fixed;
+    z-index: 1000;
+
+}
+.login {
+
+    margin-top: 3%;
+    margin-right: 6%;
+    text-align: center;
+    color: white;
+    float: right;
+}
+
+.r_ine {
+    width: 202px;
+    height: 92px;
+
+}
+.nav img {
+    margin-left: 1%;
+    margin-top: 0.5%;
+    width: 20%;
+}
+
+
+.navlist {
+    margin-right: 1%;
+    float: right;
+    width: 60%;
+}
+
+.navlist ul {
+    margin-top: 0.5%;
+    list-style: none;
+    width: 100%;
+    float: right;
+    /*border-bottom :  1px solid  #bfbfbf;*/
+
+}
+
+.navlist li a {
+    font-weight: normal;
+    display: block;
+    margin-left: 5px;
+    padding: 20px 16px;
+    color: #bfbfbf;
+    width: 100%;
+    text-decoration: none;
+}
+
+.navlist li {
+    margin-top: 15px;
+    float: left;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.r_ine {
+    width: 202px;
+    height: 92px;
+
+}
+
+.navlist ul li:not(.Sed):hover {
+    border-bottom: 4px solid #1C69D4;
+}
+
+
+.title_1{
+    font-family:华文宋体;
+    font-weight: lighter;
+    transform: scale(1,2);
+}
+
+h6{
+    text-align: center;
+}

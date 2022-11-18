@@ -10,12 +10,26 @@
     width: 100%;
 }
 .over_pic_right img:hover{
+    opacity: 0.5;
     transform: scale(1.05);
     transition: 1s;
 }
 .over_pic_left img:hover{
+    opacity: 0.6;
     transform: scale(1.05);
     transition: 1s;
+}
+
+.over_pic_left:hover .over_text_left_under{
+    transition: 3s;
+    display: block;
+    top: 80%    ;
+}
+
+.over_pic_right:hover .over_text_right_under{
+    transition: 3s;
+    display: block;
+    top: 80%    ;
 }
 .over_pic_right{
     padding: 0;
@@ -24,6 +38,43 @@
     /*background-color: #0066B1;*/
     overflow: hidden;
 }
+
+.over_text_left_under{
+    position: absolute;
+    top: 85%;
+    margin-left: 3%;
+    font-size: 25px;
+    font-weight: lighter;
+    /*transform: scale(1,2);*/
+    z-index: 1;
+    display: none;
+    color: white;
+}
+
+.over_text_right_under{
+    position: absolute;
+    top: 85%;
+    margin-left: 3%;
+    font-size: 25px;
+    font-weight: lighter;
+    /*transform: scale(1,2);*/
+    z-index: 1;
+    display: none;
+    color: white;
+}
+
+.over_text_left{
+    position: absolute;
+    top: 16%;
+    margin-left: 3%;
+    font-size: 30px;
+    font-family: 华文中宋;
+    font-weight: lighter;
+    transform: scale(1,2);
+    z-index: 100;
+    color: white;
+}
+
 .over_pic_left{
     float: left;
     width: 45%;

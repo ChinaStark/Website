@@ -1,4 +1,6 @@
 let time = setTimeout("showImg()", 2000);
+textdetaillt = ['政策查询','保养维修','原厂精品','日常充电及保养']
+textdetailrt = ['手机端服务体验','车辆救援','原厂选装配件','维修及救援']
 
 const changePic = ['1.png', '2.jpg', '3.jpg', '4.jpg', '5.jpg','bg1.jpg'];
 let i = -1;
@@ -85,6 +87,8 @@ function ChangePicinSerive(e){
         document.getElementById("rightPic").style.width = "100%"
         document.getElementById("rightPic").src = "Image/right"+e+".jpg";
     }
-
+    console.log(e)
+    document.getElementById("funl").innerText = textdetaillt[e-1]
+    document.getElementById("funr").innerText = textdetailrt[e-1]
 
 }
