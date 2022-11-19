@@ -5,7 +5,7 @@
 
 
 .nav {
-    background: url("../Image/icon-header-dark.png") no-repeat;
+    background: url("../images/icon-header-dark.png") no-repeat;
     background-size: 130%;
     width: 100%;
     height: 13%;
@@ -293,12 +293,12 @@ img {
 }
 
 .text1 {
-    width: 450px;
+    width: 700px;
     position: relative;
     top: -600px;
     left: 66px;
     color: white;
-    font-size: xx-large;
+    font-size: 25px;
     font-style: oblique;
 }
 
@@ -351,7 +351,7 @@ img {
     }
 
     .text1 {
-        font-size: 15px;
+        font-size: 10px;
         margin-top: 380px;
     }
 
@@ -401,7 +401,7 @@ img {
 
 .outer {
     display: block;
-    background-image: url("../Image/bg1.jpg");
+    background-image: url("../images/bg1.jpg");
     background-size: cover;
     width: 1688px;
     height: 844px;

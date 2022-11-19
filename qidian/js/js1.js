@@ -25,7 +25,7 @@ function buy(a, b) {
     document.getElementById("d_log").style.display = "block";
 }
 
-let s = "Image/a1.png";
+let s = "images/a1.png";
 
 function pic(e) {
     document.getElementById("d_img").src = e;
@@ -63,20 +63,20 @@ function showImg() {
     if (i === 6) {
         i = 0;
     }
-    // document.getElementById("mouseout").setAttribute("src", "Image/"+changePic[i]);
+    // document.getElementById("mouseout").setAttribute("src", "images/"+changePic[i]);
     if(i === 0){
         document.getElementById("id5").style.background = "rgba(255,255,255,.4)";
     }else {
         document.getElementById("id"+(i-1).toString()).style.background = "rgba(255,255,255,.4)";
     }
 
-    document.getElementById("mouseout").style.backgroundImage = 'url("Image/'+changePic[i]+'")';
+    document.getElementById("mouseout").style.backgroundImage = 'url("images/'+changePic[i]+'")';
 
     document.getElementById("id"+(i).toString()).style.background = "white";
     time = setTimeout("showImg()", 4000);
 }
 function over(e){
-    document.getElementById("mouseout").style.backgroundImage = 'url("Image/'+changePic[e-1]+'")';
+    document.getElementById("mouseout").style.backgroundImage = 'url("images/'+changePic[e-1]+'")';
 }
 
 
@@ -87,13 +87,13 @@ function ChangePicinSerive(e){
     document.getElementById("3").style.color = "rgb(151,151,151)";
     document.getElementById("4").style.color = "rgb(151,151,151)";
     document.getElementById(e).style.color = "white";
-    document.getElementById("leftPic").src = "Image/left"+e+".jpg";
+    document.getElementById("leftPic").src = "images/left"+e+".jpg";
     if(e === 3){
         document.getElementById("rightPic").style.width = "77%"
-        document.getElementById("rightPic").src = "Image/right"+e+".jpg"
+        document.getElementById("rightPic").src = "images/right"+e+".jpg"
     }else {
         document.getElementById("rightPic").style.width = "100%"
-        document.getElementById("rightPic").src = "Image/right"+e+".jpg";
+        document.getElementById("rightPic").src = "images/right"+e+".jpg";
     }
     console.log(e)
     document.getElementById("funl").innerText = textdetaillt[e-1]
