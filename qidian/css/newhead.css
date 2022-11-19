@@ -116,7 +116,7 @@
 .navlist li a {
     font-weight: normal;
     display: block;
-    margin-left: 5px;
+    /*margin-left: 5px;*/
     padding: 20px 16px;
     color: #bfbfbf;
     width: 100%;

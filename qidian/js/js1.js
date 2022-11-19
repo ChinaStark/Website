@@ -44,9 +44,17 @@ function cancelForlogin() {
 }
 
 function clear_content() {
-    alert('暂未开放')
-    document.getElementById("username").value = "";
-    document.getElementById("password").value = "";
+    // alert('暂未开放')
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value ;
+    if(username === ""|| password === ""){
+        alert("用户名或密码不能为空")
+    }else {
+        document.getElementById("username_id").innerText = username+'  你好!'
+        cancelForlogin();
+    }
+    // document.getElementById("username").value = "";
+    // document.getElementById("password").value = "";
 }
 
 
